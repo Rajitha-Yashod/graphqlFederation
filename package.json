@@ -1,4 +1,4 @@
- {
+{
   "name": "graphql-federation",
   "version": "1.0.0",
   "description": "",
@@ -10,8 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "apollo-datasource": "^3.3.2",
     "apollo-server": "^3.12.1",
-    "graphql": "^16.8.1"
+    "graphql": "^16.8.1",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
