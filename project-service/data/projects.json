@@ -4,14 +4,14 @@
       "projectName": "Jagabaya Dua",
       "startDate": "5/18/2020",
       "client": "Howe, Ritchie and Quigley",
-      "employees": [365,303,758]
+      "employees": [1,303,758]
     },
     {
       "id": 2,
       "projectName": "Bébédja",
       "startDate": "12/27/2020",
       "client": "Crist, Schowalter and Wilkinson",
-      "employees": [332,519,275]
+      "employees": [332,1,275]
     },
     {
       "id": 3,
@@ -19,7 +19,7 @@
       "startDate": "10/7/2020",
       "client": "Homenick Inc",
       "digit": 71,
-      "employees": [71,2,664]
+      "employees": [1]
     },
     {
       "id": 4,
