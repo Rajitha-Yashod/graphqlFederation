@@ -17,7 +17,8 @@ class ProjectService extends RESTDataSource{
     }
 
     async findProjectById(id){
-        return await this.get(`/projects/${id}`)
+        const project = await this.get(`/projects/${id}`)
+        return project;
     }
 }
 
