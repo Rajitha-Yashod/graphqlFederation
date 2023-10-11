@@ -32,9 +32,9 @@ type Employee{
 
 type Project{
     id:ID!,
-    ProjectName: String
-    startDate: String
-    client: String
+    projectName: String,
+    startDate: String,
+    client: String,
     employees: [Employee]
 }
 
@@ -51,7 +51,7 @@ const resolvers = {
             return dataSources.projectService.getProjects()
         },
         findProjectById:(parent, {id}, {dataSources}, into)=>{
-            return dataSources.projectService.findProjectById(id)[0];
+            return dataSources.projectService.findProjectById(id);
         }
         
     }
